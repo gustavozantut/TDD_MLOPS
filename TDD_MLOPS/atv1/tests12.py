@@ -55,4 +55,4 @@ class RomanNumbersTest(unittest.TestCase):
         self.assertEqual(RomanNumbers.get_number_from_roman("MX**"), "entrada inválida")   
     
     def test_invalid_input_5(self):
-        self.assertEqual(RomanNumbers.get_number_from_roman("*M*IX*"), "entrada inválida")       
+        self.assertEqual(RomanNumbers.get_numbe_from_roman("*M*IX*"), "entrada inválida")       
